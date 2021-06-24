@@ -1,0 +1,11 @@
+[submodule "dwm"]
+	path = dwm
+	url = "https://github.com/wgxh/dwm"
+
+[submodule "st"]
+	path = st
+	url = "https://github.com/wgxh/st"
+
+[submodule "nvim"]
+	path = nvim
+	url = "https://github.com/wgxh/nvim"
