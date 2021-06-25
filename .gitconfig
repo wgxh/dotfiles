@@ -1,0 +1,11 @@
+[user]
+	name = wgxh-cli
+	email = 15184439535@qq.com
+[core]
+	editor = nvim
+[credential]
+	helper = cache
+[url "https://hub.fastgit.org/"]
+	insteadOf = https://github.com/
+[protocol "https"]
+	allow = always
