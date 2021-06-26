@@ -14,7 +14,6 @@ alias nvi="nvim"
 
 neofetch
 setxkbmap -option caps:escape_shifted_capslock
-xmodmap ~/.xmodmap
 
 if [[ -n "$NVIM_LISTEN_ADDRESS" ]]; then
 	alias nvim="nvr"
