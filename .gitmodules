@@ -9,3 +9,7 @@
 [submodule "nvim"]
 	path = nvim
 	url = "https://github.com/wgxh/nvim"
+
+[submodule "dmenu"]
+	path = dmenu
+	url = "https://github.com/wgxh/dmenu"
