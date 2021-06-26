@@ -1,0 +1,27 @@
+super + Return
+	st
+
+# Run program launcher
+super + p
+	dmenu_run
+
+# close and kill
+super + q
+	bspc node -c
+
+# Move
+super + {H, J, K, L}
+	bspc node -z {left -20 0, bottom 0 20, top 0 -20, right 20 0}
+
+# quit/restart bspwm
+super + {Q,R}
+	bspc {quit,wm -r}
+
+# focus
+super + {h, j, k, l}
+	bspc node -f {west, south, north, east}
+
+# focus a desktop
+super + {_,shift + }{1-9, 0}
+	bspc {desktop -f, node -d} '^{1-9,10}'
+
